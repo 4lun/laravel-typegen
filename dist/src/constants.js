@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.tmpDir = exports.indexDeclarationFileName = exports.formRequestsFileName = exports.routeParamsFileName = exports.modelFileName = exports.defaultEnumPath = exports.defaultModelPath = exports.defaultOutputPath = void 0;
+exports.defaultOutputPath = 'resources/js/types';
+exports.defaultModelPath = 'app/Models';
+exports.defaultEnumPath = 'app/Enums';
+exports.modelFileName = 'model.ts';
+exports.routeParamsFileName = 'param.ts';
+exports.formRequestsFileName = 'formRequests.ts';
+exports.indexDeclarationFileName = 'route.d.ts';
+exports.tmpDir = "./.laravel-typegen-tmp";
